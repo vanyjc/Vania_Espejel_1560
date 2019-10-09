@@ -7,6 +7,6 @@ def suma_lista(lista):
         return value + suma_lista(lista)
     
 def main():
-    l = [5,10,15,20,25]
+    l = [3,5,2,4]
     print(suma_lista(l))
 main()
